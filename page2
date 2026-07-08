@@ -2,6 +2,32 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모던 공학용 계산기 - 서브 페이지</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-950 min-h-screen flex flex-col text-gray-100">
+
+    <!-- 상단 네비게이션 메뉴 -->
+    <nav class="w-full bg-gray-900 p-4 flex justify-center gap-8 border-b border-gray-800 shadow-md">
+        <!-- 2번 페이지(page2.html)는 하이라이트 처리 -->
+        <a href="index.html" class="text-gray-400 hover:text-white transition-colors pb-1 text-lg">1번 탭 (계산기)</a>
+        <a href="page2.html" class="text-teal-400 font-bold border-b-2 border-teal-400 pb-1 text-lg">2번 탭 (서브)</a>
+    </nav>
+
+    <!-- 서브 페이지 메인 영역 -->
+    <main class="flex-grow flex flex-col items-center justify-center p-4">
+        
+        <div class="max-w-md w-full bg-gray-900 border border-gray-800 rounded-[2rem] p-8 text-center shadow-2xl">
+            <h1 class="text-3xl font-bold mb-4 text-white">두 번째 페이지</h1>
+            <p class="text-gray-400 mb-6 leading-relaxed">
+                <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>스네이크 게임</title>
     <!-- Tailwind CSS (가정된 환경에 맞추어 CDN 포함) -->
@@ -402,5 +428,15 @@
         draw();
 
     </script>
+
+            </p>
+            
+            <a href="index.html" class="inline-block bg-teal-500 hover:bg-teal-400 text-white font-medium py-3 px-6 rounded-xl transition-colors">
+                계산기로 돌아가기
+            </a>
+        </div>
+
+    </main>
+
 </body>
 </html>
