@@ -27,7 +27,6 @@
             <p class="text-gray-400 mb-6 leading-relaxed">
                 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>스네이크 게임</title>
     <!-- Tailwind CSS (가정된 환경에 맞추어 CDN 포함) -->
